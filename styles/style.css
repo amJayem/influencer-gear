@@ -1,0 +1,112 @@
+/*common styles*/
+body{
+	margin: auto 120px ;
+}
+/*nav bar style*/
+nav a{
+	text-decoration: none;
+	color: black;
+}
+nav span{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*banner section*/
+.banner{
+	display: flex;
+	align-items: center;
+	margin-top: 5	0px;
+}
+.banner-text h1{
+	font-weight: 700;
+	font-size: 52px;
+	margin-bottom: 0;
+}
+.banner-text p{
+	width: 60%;
+	padding: 16px 0;
+}
+.banner-text a{
+	background-color: #E02C6D;
+	border-radius: 5px;
+	color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+	font-weight: 700;
+	font-size: 16px;
+}
+.banner-image img{
+	width: 440px;
+	height: 414px;	
+    border: 2px solid #F1E4FE;
+    border-radius: 50%;
+}
+/*hr tag 1 style*/
+.hr-1{
+	width: 1110px;
+	height: 1px;
+	margin-top: 70px;
+	background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+/*---------------------
+	logos style
+----------------------*/
+.logos{
+	padding: 36px 62px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+/*---------------------
+	hr tag 2 style
+----------------------*/
+.hr-2{
+	width: 1110px;
+	height: 1px;
+	margin-bottom: 100px;
+	background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+/*-----------------------------
+	popular collection styles
+-------------------------------*/
+.popular-collection{
+	margin-top: 0;
+	/*width: 80%;*/
+	display: flex;
+	justify-content: center;
+	/*border: 1px solid;*/
+}
+.popular-collection-text{
+	text-align: center;
+	color: black;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+.collections{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 26px;
+	grid-column-gap: 26px;
+	margin-bottom: 50px;
+}
+.collection{
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	width: 330px;
+	height: 475px;
+	box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94,104,121, .288);
+}
+.collection-img{
+	width: 300px;
+	height: 255px;
+	padding: 15px;
+}
+
+.see-more{
+	text-align: right;
+	color: rgba(224, 44, 109, 0.87);
+	display: flex;
+	justify-content: flex-end;
+}
