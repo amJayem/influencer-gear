@@ -1,5 +1,8 @@
 /*common styles*/
 body{
+	margin: 0;
+}
+.body{
 	margin: auto 120px ;
 }
 /*nav bar style*/
@@ -35,6 +38,9 @@ nav span{
     text-decoration: none;
 	font-weight: 700;
 	font-size: 16px;
+}
+.banner-text a span{
+	margin-left: 8px;
 }
 .banner-image img{
 	width: 440px;
@@ -109,4 +115,79 @@ nav span{
 	color: rgba(224, 44, 109, 0.87);
 	display: flex;
 	justify-content: flex-end;
+    align-items: center;
+}
+.see-more p{
+	margin-right: 8px;
+}
+
+/*--------------------------
+	feature-product
+----------------------------*/
+.feature-product{
+	display: flex;
+	margin: 100px 120px;
+}
+.feature-product .feature-img img{
+	width: 404px;
+	height: 270px;
+	border-radius: 5px;
+}
+.feature-info{
+	padding: 23px 0 0 96px;
+}
+.feature-info h2{
+	font-weight: 700;
+	font-size: 38px;
+	padding-bottom: 0;
+	/*line-height: 60px;*/
+}
+.feature-info p{
+	width: 70%;
+}
+.feature-info a{
+	text-decoration: none;
+	color: black;
+	background-color: rgba(224, 44, 109, 0.87);
+	padding: 10px 24px;
+	padding-right: 8px;
+}
+.feature-info i{
+	padding-right: 24px;
+}
+
+/*------------------------
+	footer
+------------------------*/
+footer{
+	background-color: #0A0826;
+	height: 240px;
+	margin: 0;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+footer h2{		
+	font-weight: 700;
+	font-size: 24px;
+	padding-top: 50px;
+}
+footer p{
+	font-size: 14px;
+	margin-top: 3px;;
+}
+
+
+.logos-2 {
+	margin-top: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.logos-2 i{
+
+	margin-right: 16px;
 }
